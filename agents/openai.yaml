@@ -2,7 +2,7 @@ interface:
   display_name: "根据心情推荐游玩"
   short_description: "按心情和出行约束推荐短途目的地"
   brand_color: "#4F7064"
-  default_prompt: "使用 $mood-travel-recommender，根据我的心情、天数、出发地和预算推荐一个主方案、两个备选和逐日行程。"
+  default_prompt: "使用 $mood-travel-recommender，根据我的心情、天数、出发地和预算推荐 5 个方案，标注每个方案的推荐星级，并给出完整逐日行程。"
 
 policy:
   allow_implicit_invocation: true
